@@ -3,13 +3,7 @@
   package:
     name: "{{ nginx_package }}"
     state: latest
-
-- name: start nginx
-  tags: nginx
-  service:
-    name: nginx.service
-    state: started
-    enabled: yes
+  notify: start_nginx
 
 - name: copy default html file to server
   tags: copy, nginx
