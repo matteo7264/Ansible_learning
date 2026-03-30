@@ -51,7 +51,7 @@ Ansible_learning/
         │   └── main.yml        # Core tasks (install, copy, start)
         ├── handlers/
         │   └── main.yml        # Handlers (e.g. restart Nginx on change)
-        ├── files/
+        └── files/
             └── default_site.html  # Custom HTML page deployed to the server
 
 ```
