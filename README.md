@@ -42,7 +42,7 @@ Control Node                          Managed Node
 ## Project Structure
 
 ```
-Ansible/
+Ansible_learning/
 ├── inventory.ini               # Defines the managed hosts
 ├── site.yml           # Main playbook (Nginx install + config)
 └── roles/
@@ -52,7 +52,7 @@ Ansible/
         ├── handlers/
         │   └── main.yml        # Handlers (e.g. restart Nginx on change)
         ├── files/
-        │   └── default_site.html  # Custom HTML page deployed to the server
+            └── default_site.html  # Custom HTML page deployed to the server
 
 ```
 
